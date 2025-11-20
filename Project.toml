@@ -1,0 +1,13 @@
+name = "CoVault"
+uuid = "224ba3dc-4955-4c01-b997-e04790ff296e"
+authors = ["josePereiro <jose.pereiro.personal@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
